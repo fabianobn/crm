@@ -3,23 +3,23 @@
 	"crons": [
 		{
 			"path": "/internal/sync/mailboxes",
-			"schedule": "0 * * * *"
+			"schedule": "0 0 * * *"
 		},
 		{
 			"path": "/internal/sync/rates",
-			"schedule": "0 * * * *"
+			"schedule": "0 0 * * *"
 		},
 		{
 			"path": "/internal/telemetry/rollup",
-			"schedule": "0 * * * *"
+			"schedule": "0 0 * * *"
 		},
 		{
 			"path": "/internal/tracking/retention",
-			"schedule": "0 * * * *"
+			"schedule": "0 0 * * *"
 		},
 		{
 			"path": "/internal/archive/prune",
-			"schedule": "0 * * * *"
+			"schedule": "0 0 * * *"
 		}
 	]
 }
